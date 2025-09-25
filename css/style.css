@@ -314,3 +314,107 @@ html {
     color: #fff;
   }
 }
+
+/* Hero background image and overlay */
+.hero {
+  background: linear-gradient(rgba(30,30,60,0.7), rgba(30,30,60,0.7)), url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+  color: #fff;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Button hover effect */
+.btn {
+  background: #4f8cff;
+  color: #fff;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 30px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 4px 20px rgba(79,140,255,0.15);
+}
+.btn:hover {
+  background: #2563eb;
+  transform: translateY(-3px) scale(1.05);
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 1s forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Client logos */
+.clients .client-logos {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0;
+}
+.clients .client-logos img {
+  height: 50px;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+.clients .client-logos img:hover {
+  opacity: 1;
+}
+
+/* Service card effect */
+.service {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  padding: 2em;
+  margin: 1em 0;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.service:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+/* CTA banner */
+.cta-banner {
+  background: linear-gradient(90deg, #4f8cff 0%, #2563eb 100%);
+  color: #fff;
+  text-align: center;
+  padding: 3em 1em;
+  border-radius: 20px;
+  margin: 3em 0 2em 0;
+}
+.cta-banner .btn {
+  margin-top: 1em;
+  background: #fff;
+  color: #2563eb;
+  font-weight: bold;
+}
+.cta-banner .btn:hover {
+  background: #e0e7ff;
+  color: #1e40af;
+}
+
+/* Portfolio image hover */
+.portfolio-grid img {
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+.portfolio-grid img:hover {
+  transform: scale(1.04) translateY(-4px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+}
