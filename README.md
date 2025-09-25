@@ -59,7 +59,7 @@ Simply open `index.html` in your browser to preview the site.
 
 ## 🌐 Live Demo
 
-(You can add a GitHub Pages link here once deployed.)
+https://ronald248.github.io/-week-8-capstone-project-CLASS/
 
 ---
 
@@ -73,4 +73,3 @@ Ronald Omondi Omollo
 
        Email: **collincesronald@gmail.com**
        Phone: ** 0715920019 **
-       
